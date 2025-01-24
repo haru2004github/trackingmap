@@ -83,141 +83,85 @@
 </head>
 <body>
     <div class="">
-        <div  class="md:w-auto md:h-screen w-full md:h-[100vh] fixed bottom-0 md:top-0 left-0 flex flex-col-reverse justify-center items-center md:block w-full mx-5">
-        <!-- <div class="bg-green-900/20 w-full h-screen fixed top-0 left-0 z-0"></div> -->
-
-            <div class="bg-[#003366] w-auto p-2 md:p-3 md:py-5 rounded-xl shadow-xl backdrop-blur-lg md:mt-32  border-2 border-blue-500 md:ml-10 ">
-                <h2 class="text-white text-xl md:text-2xl font-semibold">
-                Location Data: ဟိန်းစံ
-                </h2>
-                <div class="bg-blue-90 text-normal md:text-xl p-1 md:p-3 rounded-lg mt-1 md:mt-3 text-white  ">
-                    <h1 class="inline-block">
-                        IP Address: 103.46.22.10
-                        </h1>
-                        <h1>
-                        GPS Coordinates: 37.7749° N, 122.4194° W
-                        </h1>
-                        <h1>
-                        City/Country: Yangon,Myanmar
-                        </h1>
-                        <h1>
-                        Signal Strength: 98%
-
-                        </h1>
-                        Encryption Status: Decrypted <br>
-                        Network Provider: FiberTech Networks
-                </div>
+        <div class="w-full fixed bottom-0 left-0 rounded-3xl rounded-b-none text-white p-5 bg-slate-800">
+            <div class="mx-auto h-2 w-12 rounded-full bg-white"></div>
+            <div class="bg-slate-700 rounded-full p-2 px-4 mt-3 text-sm flex justify-between items-center mx-4">
+              <i class="fas fa-location"></i>
+              <span>
+                လင်းနိုင် (180.231.23.78)
+              </span>
+              <i class="fas fa-x"></i>
+            </div>
+            <div class="bg-slate-700 rounded-full p-2 px-4 mt-3 text-sm flex justify-between items-center mx-4">
+              <i class="fas fa-location"></i>
+              <span>
+                သီဟ (180.231.23.78)
+              </span>
+              <i class="fas fa-x"></i>
+            </div>
+            <div class="bg-slate-700 rounded-full p-2 px-4 mt-3 text-sm flex justify-between items-center mx-4">
+              <i class="fas fa-location"></i>
+              <span>
+                မြတ်နိုး  (180.231.23.78)
+              </span>
+              <i class="fas fa-x"></i>
             </div>
 
-            <div class="bg-[#003366] w-auto p-2 md:p-3 md:py-5 rounded-xl shadow-xl backdrop-blur-lg md:mt-5  border-2 border-blue-500 md:ml-10 ">
-                <h2 class="text-white text-xl md:text-2xl font-semibold">
-                Location Data: ကျော်တေဇ
-                </h2>
-                <div class="bg-blue-90 text-normal md:text-xl p-1 md:p-3 rounded-lg mt-1 md:mt-3 text-white  ">
-                    <h1 class="">
-                        IP Address: 180.231.23.78
-                        </h1>
-                        <h1>
-                        GPS Coordinates: 34.5449° N, 142.4594° W
-                        </h1>
-                        <h1>
-                        City/Country: Yangon,Myanmar
-                        </h1>
-                        <h1>
-                        Signal Strength: 87%
-
-                        </h1>
-                        Encryption Status: Decrypted <br>
-                        Network Provider: VelocityFiber
-                </div>
-            </div>
-
-            <div class="bg-[#003366] w-auto p-2 md:p-3 md:py-5 rounded-xl shadow-xl backdrop-blur-lg md:mt-5  border-2 border-blue-500 md:ml-10 ">
-                <h2 class="text-white text-xl md:text-2xl font-semibold">
-                Location Data: ယွန်းဝတီ
-                </h2>
-                <div class="bg-blue-90 text-normal md:text-xl p-1 md:p-3 rounded-lg mt-1 md:mt-3 text-white  ">
-                    <h1 class="">
-                        IP Address: 180.235.117.80
-                        </h1>
-                        <h1>
-                        GPS Coordinates: 45.7249° N, 134.4894° W
-                        </h1>
-                        <h1>
-                        City/Country: Yangon,Myanmar
-                        </h1>
-                        <h1>
-                        Signal Strength: 79%
-
-                        </h1>
-                        Encryption Status: Decrypted <br>
-                        Network Provider: HyperConnect Systems
-                </div>
-            </div>
-
-            <div class="flex w-full md:w-auto justify-center items-center md:px-10 scale-75 md:scale-80 translate-y-6 md:-translate-y-4">
-                <div class=" bg-[#003366] p-2 md:p-5 rounded-xl shadow-xl backdrop-blur-lg mt-5  border-2 border-blue-500 md:ml-10 py-3 md:py-5">
-                    <div class="grid grid-cols-3 items-end gap-x-3">
-                        <div class="">
-                            <div class="loader1 mx-auto w-28 h-14"></div>
-    
-                            <button class=" mt-5 bg-green-500/80 ring-green-700 shadow-md border border-green-600 backdrop-blur-lg text-white p-2  md:text-lg rounded-lg">
-                                Trace Loaction
-                            </button>
-                        </div>
-    
-                        <div class="flex flex-col items-center">
-                            <div class="w-20 h-20 bg-red-500 text-white flex justify-center items-center rounded-full">
-                                <i class="fas fa-location text-4xl "></i>
-                            </div>
-    
-                            <button class=" mt-5 bg-red-500/80 ring-green-700 shadow-md border border-red-600 backdrop-blur-lg text-white p-2  md:text-lg rounded-lg">
-                                Mark Location
-                            </button>
-                        </div>
-    
-                        <div class="flex flex-col items-center">
-                            <div class="loader2  w-20 h-20"></div>
-    
-                            <button class=" mt-5 bg-blue-800/50 ring-green-700 shadow-mdbackdrop-blur-lg  border border-blue-600  text-white p-2  md:text-lg rounded-lg">
-                                Calibrate GPS:
-                            </button>
-                        </div>
-                        
-                        
-    
-                        
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="loader  bg-red-500 flex justify-center text-white text-3xl items-center w-20 h-20 md:w-24  md:h-24 rounded-full md:scale-[1.3]  fixed top-20 md:top-40 right-10 md:right-96 z-50">
-            <div class="flex flex-col items-center">
-                <i class="fas fa-location-dot text-xl md:text-3xl text-center"></i>
-                <div class="text-xs mt-1">
-                    ဟိန်းစံ
-                </div>
+            <div class="flex justify-center items-center gap-x-4 mt-5 p-4 rounded-3xl mb-5 bg-gray-500/20 w-auto inline-block mx-12 ">
+              <div class="bg-red-500 text-white px-3 py-1 rounded-lg text-sm">
+                Attack 
+              </div>
+              <div class="bg-cyan-500 text-white px-3 py-1 rounded-lg text-sm">
+                Check
+              </div>
+              <div class="bg-violet-500 text-white px-3 py-1 rounded-lg text-sm">
+                Target
+              </div>
             </div>
         </div>
 
-        <div class="loader  bg-red-500 flex justify-center text-white text-3xl items-center w-20 h-20 md:w-24  md:h-24 rounded-full fixed top-[20%] md:top-[50%] right-[70%] md:right-[60%] z-50 md:scale-[1.3] opacity-90">
-            <div class="flex flex-col items-center">
-                <i class="fas fa-location-dot text-xl md:text-3xl text-center"></i>
-                <div class="text-xs mt-1">
-                    ကျော်တေဇ
+
+
+        <div class="fixed top-20 md:top-40 right-10 md:right-96 z-50 rotate-180 flex flex-col items-center">
+            <div class="bg-cyan-500 rotate-45 w-8 h-8 mx-auto z-10"></div>
+
+            <div class="-mt-6 animate p-2 z-20  bg-cyan-500 flex justify-center text-white text-3xl items-center w-20 h-20 md:w-24 overflow-hidden  md:h-24 rounded-full z-50 md:scale-[1.3] opacity-90">
+                <div class="rounded-full w-full h-full overflow-hidden ">
+                 <img class="z-50 rotate-180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSscR9OFAOfOKKbUx1XPkSzQfFT4BD1iINezA&s" alt="">
                 </div>
-            </div>
+             </div>
+             <h1 class="text-center rotate-180 mt-2 text-2xl font-bold text-cyan-600">
+                သီဟ
+             </h1>
         </div>
 
-        <div class="loader  bg-red-500 flex justify-center text-white  items-center w-20 h-20 md:w-24  md:h-24 rounded-full fixed bottom-[55%] md:bottom-[20%] right-[10%] z-50 md:scale-[1.3] opacity-90">
-            <div class="flex flex-col items-center">
-                <i class="fas fa-location-dot text-xl md:text-3xl text-center"></i>
-                <div class="text-xs mt-1">
-                    ယွန်းဝတီ
+        <div class="fixed top-[20%] md:top-[50%] right-[70%] md:right-[60%] rotate-180 flex flex-col items-center">
+            <div class="bg-cyan-500 rotate-45 w-8 h-8 mx-auto z-10"></div>
+
+            <div class="-mt-6 animate p-2 z-20  bg-cyan-500 flex justify-center text-white text-3xl items-center w-20 h-20 md:w-24 overflow-hidden  md:h-24 rounded-full z-50 md:scale-[1.3] opacity-90">
+                <div class="rounded-full w-full h-full overflow-hidden ">
+                 <img class="z-50 rotate-180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT08ql5ByHWRFO0wiJ9y8UFjll_yZE2dbaFFQ&s" alt="">
                 </div>
-            </div>
+             </div>
+             <h1 class="text-center rotate-180 mt-2 text-2xl font-bold text-cyan-600">
+                လင်းနိုင်
+             </h1>
+        </div>
+
+
+
+
+        <div class=" fixed bottom-[55%] md:bottom-[20%] right-[10%] z-50 md:scale-[1.3] opacity-90 rotate-180 flex flex-col items-center">
+            <div class="bg-cyan-500 rotate-45 w-8 h-8 mx-auto z-10"></div>
+
+            <div class="-mt-6 animate p-2 z-20  bg-cyan-500 flex justify-center text-white text-3xl items-center w-20 h-20 md:w-24 overflow-hidden  md:h-24 rounded-full z-50 md:scale-[1.3] opacity-90">
+                <div class="rounded-full w-full h-full overflow-hidden ">
+                 <img class="z-50 rotate-180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr60Yy2EH-e9l_It-6jbLv-tyKeB7rp5HuHQ&s" alt="">
+                </div>
+             </div>
+             <h1 class="text-center rotate-180 mt-2 text-2xl font-bold text-cyan-600">
+                 မြတ်နိုး
+             </h1>
         </div>
 
 
